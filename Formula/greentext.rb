@@ -10,19 +10,19 @@ class Greentext < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/jasonuc/greentext/releases/download/v1.1.2/greentext_ 1.1.2_ Darwin_x86_64"
-      sha256 "702dd01e6d85787cbb8c5faf20a8363eb034195aa3f1a10a7a1faad0c620e10a"
+      url "https://github.com/jasonuc/greentext/releases/download/v1.1.2/greentext_1.1.2_Darwin_x86_64"
+      sha256 "983938c10680436caeca7b93d94a8e3c120a44c855de3c5c057c503738297518"
 
       def install
-        bin.install "greentext_ 1.1.2_ Darwin_x86_64" => "greentext"
+        bin.install "greentext_1.1.2_Darwin_x86_64" => "greentext"
       end
     end
     on_arm do
-      url "https://github.com/jasonuc/greentext/releases/download/v1.1.2/greentext_ 1.1.2_ Darwin_arm64"
-      sha256 "09e5b0abf7be0865fa3b5d42a9da817d3031ed06b7b91edb9a871c9499ef61a5"
+      url "https://github.com/jasonuc/greentext/releases/download/v1.1.2/greentext_1.1.2_Darwin_arm64"
+      sha256 "deaf657b6715d9cfafabe38f20025b26f323914716e91a001a6a959866a513a2"
 
       def install
-        bin.install "greentext_ 1.1.2_ Darwin_arm64" => "greentext"
+        bin.install "greentext_1.1.2_Darwin_arm64" => "greentext"
       end
     end
   end
@@ -30,21 +30,21 @@ class Greentext < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/jasonuc/greentext/releases/download/v1.1.2/greentext_ 1.1.2_ Linux_x86_64"
-        sha256 "54c69e8d67d3c1aed1fdf128985fc601894c19f66413e4c64144e4c90f140ccf"
+        url "https://github.com/jasonuc/greentext/releases/download/v1.1.2/greentext_1.1.2_Linux_x86_64"
+        sha256 "2fa9dfcd62844722a9fdfa6ddebe494010c03bfb791a18e05b89959bde1d9017"
 
         def install
-          bin.install "greentext_ 1.1.2_ Linux_x86_64" => "greentext"
+          bin.install "greentext_1.1.2_Linux_x86_64" => "greentext"
         end
       end
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/jasonuc/greentext/releases/download/v1.1.2/greentext_ 1.1.2_ Linux_arm64"
-        sha256 "63d52af764109c8c1a5b069583a906716262d28a37e3953a58c3d91b81c72542"
+        url "https://github.com/jasonuc/greentext/releases/download/v1.1.2/greentext_1.1.2_Linux_arm64"
+        sha256 "a3d4fad1e0f80f502101c80c96224228c40dc27c9f47646ae8ecd6457b23cede"
 
         def install
-          bin.install "greentext_ 1.1.2_ Linux_arm64" => "greentext"
+          bin.install "greentext_1.1.2_Linux_arm64" => "greentext"
         end
       end
     end
