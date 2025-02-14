@@ -5,24 +5,24 @@
 class Gignr < Formula
   desc "A CLI to create .gitignore files using templates"
   homepage "https://github.com/jasonuc/gignr"
-  version "1.1.0"
+  version "1.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/jasonuc/gignr/releases/download/v1.1.0/gignr_1.1.0_Darwin_amd64_1739556855"
-      sha256 "cf25cba3ea8e6dff066b71add7bee2582b25b1b647f73ba29d0184437bfb381a"
+      url "https://github.com/jasonuc/gignr/releases/download/v1.2.0/gignr_1.2.0_Darwin_amd64_1739560711"
+      sha256 "9cf03163c28473699ea7fe0beabfe794ddfa55cd87d57fde3c69c156f2fe1e2c"
 
       def install
-        bin.install "gignr_1.1.0_Darwin_amd64_1739556855" => "gignr"
+        bin.install "gignr_1.2.0_Darwin_amd64_1739560711" => "gignr"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/jasonuc/gignr/releases/download/v1.1.0/gignr_1.1.0_Darwin_arm64_1739556855"
-      sha256 "46f29c27f3c65f508eb5c1dbc7e2a6fb06dcf074c1c69372dd26694118ee3bf3"
+      url "https://github.com/jasonuc/gignr/releases/download/v1.2.0/gignr_1.2.0_Darwin_arm64_1739560711"
+      sha256 "465b02c01ad245e46bfeaa442f3b02f54ab983ef89cce8985b5ed43159ee9de5"
 
       def install
-        bin.install "gignr_1.1.0_Darwin_arm64_1739556855" => "gignr"
+        bin.install "gignr_1.2.0_Darwin_arm64_1739560711" => "gignr"
       end
     end
   end
@@ -30,21 +30,21 @@ class Gignr < Formula
   on_linux do
     if Hardware::CPU.intel?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/jasonuc/gignr/releases/download/v1.1.0/gignr_1.1.0_Linux_amd64_1739556855"
-        sha256 "878c68ce624034e6ee9df106cf15e8153b214dd2cbdcaff91453f246de6e54f1"
+        url "https://github.com/jasonuc/gignr/releases/download/v1.2.0/gignr_1.2.0_Linux_amd64_1739560711"
+        sha256 "575fa2813e5a9201ef4f472ee4b87b147d65e93697d658a6e47ce138825f16a1"
 
         def install
-          bin.install "gignr_1.1.0_Linux_amd64_1739556855" => "gignr"
+          bin.install "gignr_1.2.0_Linux_amd64_1739560711" => "gignr"
         end
       end
     end
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/jasonuc/gignr/releases/download/v1.1.0/gignr_1.1.0_Linux_arm64_1739556855"
-        sha256 "2e8c5925e00748abde53cd802fe0b441aea79340006f4e0e763352fc19e9ca06"
+        url "https://github.com/jasonuc/gignr/releases/download/v1.2.0/gignr_1.2.0_Linux_arm64_1739560711"
+        sha256 "002a0509f3469c57347e76dff8fafdf609fa7679b1b3e5561d9bbadb211ac696"
 
         def install
-          bin.install "gignr_1.1.0_Linux_arm64_1739556855" => "gignr"
+          bin.install "gignr_1.2.0_Linux_arm64_1739560711" => "gignr"
         end
       end
     end
