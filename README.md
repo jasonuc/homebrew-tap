@@ -9,7 +9,7 @@ Easily install and manage the tools I develop ⚙️
 ## 📦 Available Formulae
 
 - **`greentext`**: A CLI tool for creating green-text memes.
-- **`gignr`**: A CLI to create & manage .gitignore files using templates.
+- **`gignr`**: A CLI to effortlessly manage and generate `.gitignore` files.
 
 ## 🚀 Installation
 
