@@ -10,19 +10,19 @@ class Gignr < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/jasonuc/gignr/releases/download/v1.1.0/gignr_1.1.0_Darwin_amd64_1739609698"
-      sha256 "ac92a1208df3322b546d6b7bccae5f39e4c741dce2e8488b679a0fb8cc1d4562"
+      url "https://github.com/jasonuc/gignr/releases/download/v1.1.0/gignr_1.1.0_Darwin_amd64_1739611785"
+      sha256 "f59b296d7e131db2fafbbd9fcbcf5d2352902c5e96250efa313ea1ce9647a461"
 
       def install
-        bin.install "gignr_1.1.0_Darwin_amd64_1739609698" => "gignr"
+        bin.install "gignr_1.1.0_Darwin_amd64_1739611785" => "gignr"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/jasonuc/gignr/releases/download/v1.1.0/gignr_1.1.0_Darwin_arm64_1739609698"
-      sha256 "eb568fbdd8e86494166f067cdd17911544ba525a4341af687505fd68b2b11c1f"
+      url "https://github.com/jasonuc/gignr/releases/download/v1.1.0/gignr_1.1.0_Darwin_arm64_1739611785"
+      sha256 "82ebc587609f286074c8f7a143bd1dbbafa14a4d05ddd3968a5fd2ed63542cb0"
 
       def install
-        bin.install "gignr_1.1.0_Darwin_arm64_1739609698" => "gignr"
+        bin.install "gignr_1.1.0_Darwin_arm64_1739611785" => "gignr"
       end
     end
   end
@@ -30,21 +30,21 @@ class Gignr < Formula
   on_linux do
     if Hardware::CPU.intel?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/jasonuc/gignr/releases/download/v1.1.0/gignr_1.1.0_Linux_amd64_1739609698"
-        sha256 "414fba3f4353520d2c24a3fb71006f8c96efcfc08a9ff9cc587d15a656075704"
+        url "https://github.com/jasonuc/gignr/releases/download/v1.1.0/gignr_1.1.0_Linux_amd64_1739611785"
+        sha256 "9a4176749dd03f3472569873ee24efda69fe688319dcc781a0517356d1c12b3c"
 
         def install
-          bin.install "gignr_1.1.0_Linux_amd64_1739609698" => "gignr"
+          bin.install "gignr_1.1.0_Linux_amd64_1739611785" => "gignr"
         end
       end
     end
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/jasonuc/gignr/releases/download/v1.1.0/gignr_1.1.0_Linux_arm64_1739609698"
-        sha256 "5e728c4d6ac87a593c55c177cbebe93a26118f525b704013d811b78ecb224b63"
+        url "https://github.com/jasonuc/gignr/releases/download/v1.1.0/gignr_1.1.0_Linux_arm64_1739611785"
+        sha256 "1a3dad22cf29660829a0dc639a871b92223af257cae2bca6e446a23b5762df73"
 
         def install
-          bin.install "gignr_1.1.0_Linux_arm64_1739609698" => "gignr"
+          bin.install "gignr_1.1.0_Linux_arm64_1739611785" => "gignr"
         end
       end
     end
