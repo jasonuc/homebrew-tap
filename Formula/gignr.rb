@@ -10,19 +10,19 @@ class Gignr < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/jasonuc/gignr/releases/download/v1.3.0/gignr_1.3.0_Darwin_amd64_1739732955"
+      url "https://github.com/jasonuc/gignr/releases/download/v1.3.0/gignr_1.3.0_Darwin_amd64_1739733306"
       sha256 "c26f3c645fb2e398252f1470e7ad8aa443ae535e13afd1f95f406d385bee89e1"
 
       def install
-        bin.install "gignr_1.3.0_Darwin_amd64_1739732955" => "gignr"
+        bin.install "gignr_1.3.0_Darwin_amd64_1739733306" => "gignr"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/jasonuc/gignr/releases/download/v1.3.0/gignr_1.3.0_Darwin_arm64_1739732955"
+      url "https://github.com/jasonuc/gignr/releases/download/v1.3.0/gignr_1.3.0_Darwin_arm64_1739733306"
       sha256 "692ff658c075a90f9356ece367929dc958f63d034a2e6347f3a95fe16ce10a57"
 
       def install
-        bin.install "gignr_1.3.0_Darwin_arm64_1739732955" => "gignr"
+        bin.install "gignr_1.3.0_Darwin_arm64_1739733306" => "gignr"
       end
     end
   end
@@ -30,21 +30,21 @@ class Gignr < Formula
   on_linux do
     if Hardware::CPU.intel?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/jasonuc/gignr/releases/download/v1.3.0/gignr_1.3.0_Linux_amd64_1739732955"
+        url "https://github.com/jasonuc/gignr/releases/download/v1.3.0/gignr_1.3.0_Linux_amd64_1739733306"
         sha256 "49cf38d01703866d3cc6423d0c18771126168c84fa0d692d8fd316e39ec5031b"
 
         def install
-          bin.install "gignr_1.3.0_Linux_amd64_1739732955" => "gignr"
+          bin.install "gignr_1.3.0_Linux_amd64_1739733306" => "gignr"
         end
       end
     end
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/jasonuc/gignr/releases/download/v1.3.0/gignr_1.3.0_Linux_arm64_1739732955"
+        url "https://github.com/jasonuc/gignr/releases/download/v1.3.0/gignr_1.3.0_Linux_arm64_1739733306"
         sha256 "e9c83c0071ef0abd6d40b9d362cc9a425775393aa119fc27cea416598a70a184"
 
         def install
-          bin.install "gignr_1.3.0_Linux_arm64_1739732955" => "gignr"
+          bin.install "gignr_1.3.0_Linux_arm64_1739733306" => "gignr"
         end
       end
     end
